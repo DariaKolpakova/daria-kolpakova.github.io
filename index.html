@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">    
+    <title>Daria Kolpakova</title>
+</head>
+<body> 
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <h3>Дарья Колпакова</h3>
+                <h4>UX/UI designer</h4>
+            </div>
+            <div class="navigation">
+                <a href="#" class="link">Контакты</a>
+            </div>
+        </header>
+        <main class="container">
+            <div class="about">
+                <h1>Обо мне</h1>
+                <div class="about_container">
+                    <div class="about_image_container">
+                        <img src="images/about.jpg" alt="photo_about_me"/>
+                    </div>
+                    <div class="about_description_container">
+                        <h2>Меня зовут Дарья</h2>
+                        <p>
+                            UX/UI-дизайнер. Первое образование экономическое, но всегда хотелось заниматься творчеством. Профессия
+                            веб-дизайнера, на мой взгляд, обобщает эти два явления - красоту, неординарность, фантазию и расчет,
+                            собранность, четкость. Прошла обучение на базе образовательной платформы Geekbrains.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <h1>Навыки</h1>
+                <div class="skills_logo_container">
+                    <img src="images/фигма.jpg" alt="figma photo">
+                    <img src="images/иллюстратор.jpg" alt="illustator photo">
+                    <img src="images/фотошоп.jpg" alt="Photoshop photo">
+                    <img src="images/html.jpg" alt="html photo">
+                    <img src="images/css.jpg" alt="css photo">  
+                </div>
+            </div>
+            <div class="works">
+                <h1>Мои работы</h1>
+                <div id="carouselExampleIndicators" class="carousel" data-interval="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/фото_группы.jpg" class="d-block w-100 carousel-image" alt="photo of group">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/прогноз_погоды.png" class="d-block w-100 carousel-image" alt="photo of weather">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/boxberry_redesign.png" class="d-block w-100 carousel-image" alt="photo of boxberry">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <h1>Контакты</h1>
+            <div class="contacts">
+                <p>dosia-87@mail.ru</p>
+                <p>8-915-204-00-00</p>
+            </div>
+            <div class="socials">
+                <a href="#" class="link">
+                    <img src="./images/иконка_телеграмм.svg" alt="telegram">
+                </a>
+                <a href="#" class="link">
+                    <img src="./images/иконка_ватсап.svg" alt="whatsapp">
+                </a>
+                <a href="#" class="link">
+                    <img src="./images/иконка_инстаграм.svg" alt="instagram">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
